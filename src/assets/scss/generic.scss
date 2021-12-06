@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: $primary-font-family;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 1em;
+	color: $soft-blue;
+	line-height: 20/16 +0em;
+	background-color: $main-bg;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+.btn--link {
+	color: $white;
+	transition: opacity 0.3s;
+}
+
+.btn--link:hover {
+	color: $cyan;
+}
+
+[class^="icon-"] {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+.icon-ethereum {
+	width: 11/16 +0em;
+	height: 18/16 +0em;
+	background-image: url('~@/assets/images/icons/ethereum.svg');
+}
+
+.icon-clock {
+	width: 16/16 +0em;
+	height: 16/16 +0em;
+	background-image: url('~@/assets/images/icons/clock.svg');
+}
