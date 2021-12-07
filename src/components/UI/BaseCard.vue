@@ -148,6 +148,10 @@ export default {
 	}
 
 	@media (min-width: 48em) {
+		.card__body {
+			padding-bottom: 32/16 +0em;
+		}
+
 		.card__foot {
 			margin-top: 24/16 +0em;
 		}

@@ -47,7 +47,7 @@ main {
 
 .card__title {
 	margin-bottom: 12/22 +0em;
-	line-height: 27.72/22 +0em;
+	line-height: 28/22 +0em;
 	font-size: 22/16 +0em;
 	font-weight: $semibold-font-weight;
 }
