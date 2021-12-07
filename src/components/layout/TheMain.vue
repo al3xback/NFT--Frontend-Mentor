@@ -21,7 +21,7 @@
 				<template #foot>
 					<div class="card__author">
 						<figure class="card__author-avatar">
-							<img width="32" height="32" src="@/assets/images/avatar.png" alt="Avatar" />
+							<img width="33" height="33" src="@/assets/images/avatar.png" alt="Avatar" />
 						</figure>
 						<p class="card__author-text">
 							Creation of <a href="#" class="btn--link">Jules Wyvern</a>
@@ -96,7 +96,7 @@ main {
 }
 
 .card__author-avatar img {
-	width: 32/16 +0em;
+	width: 33/16 +0em;
 	height: auto;
 	border: 1px solid $white;
 	border-radius: 50%;

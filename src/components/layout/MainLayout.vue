@@ -1,5 +1,8 @@
 <template>
 	<div class="wrapper">
+		<header>
+			<h1 class="sr-only">NFT preview card component</h1>
+		</header>
 		<the-main></the-main>
 		<the-footer></the-footer>
 	</div>
