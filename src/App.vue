@@ -12,7 +12,6 @@ import TheMain from './components/layout/TheMain.vue';
 import TheFooter from './components/layout/TheFooter.vue';
 
 export default {
-	name: 'App',
 	components: {
 		TheHeader,
 		TheMain,
