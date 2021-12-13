@@ -8,10 +8,11 @@ body {
 	font-family: $primary-font-family;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	background-color: $main-bg;
 	font-size: 1em;
+	font-weight: $regular-font-weight;
 	color: $soft-blue;
 	line-height: 20/16 +0em;
-	background-color: $main-bg;
 }
 
 .sr-only {
