@@ -38,8 +38,8 @@ export default {
 <style scoped lang="scss">
 	.card {
 		position: relative;
+		width: 100%;
 		max-width: 350/16 +0em;
-		margin: 0 auto;
 		border-radius: 15px;
 		box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
 	}
@@ -61,6 +61,11 @@ export default {
 	}
 
 	.card__image {
+		position: relative;
+		height: 0;
+		padding-bottom: 100%;
+		background-color: $soft-blue;
+		overflow: hidden;
 		border-radius: 8/16 +0em;
 	}
 
@@ -71,8 +76,11 @@ export default {
 	}
 
 	.card__image a {
-		position: relative;
-		display: block;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
 		cursor: pointer;
 	}
 

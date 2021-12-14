@@ -34,15 +34,22 @@
 </template>
 
 <style scoped lang="scss">
-main {
+main,
+main .container {
 	display: flex;
-	justify-content: center;
-	align-items: center;
 	flex: auto;
 	flex-shrink: 1;
 	min-height: 0;
 	overflow: hidden;
+}
+
+main {
 	padding: 24/16 +0em 0;
+}
+
+main .container {
+	justify-content: center;
+	align-items: center;
 }
 
 .card__title {
