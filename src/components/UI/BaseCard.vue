@@ -40,8 +40,8 @@ export default {
 		position: relative;
 		width: 100%;
 		max-width: 350/16 +0em;
-		border-radius: 15px;
-		box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+		border-radius: 15/16 +0em;
+		box-shadow: 0 25/16 +0em 50/16 +0em rgba(0, 0, 0, 0.0952917);
 	}
 	
 	.card__head,
