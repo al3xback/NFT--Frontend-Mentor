@@ -38,9 +38,6 @@ main,
 main .container {
 	display: flex;
 	flex: auto;
-	flex-shrink: 1;
-	min-height: 0;
-	overflow: hidden;
 }
 
 main {
@@ -56,14 +53,14 @@ main .container {
 	margin-bottom: 12/22 +0em;
 	line-height: 28/22 +0em;
 	font-size: 22/16 +0em;
-	font-weight: $semibold-font-weight;
+	font-weight: $fw-semibold;
 }
 
 .card__desc {
 	margin-bottom: 16/18 +0em;
 	line-height: 26/18 +0em;
 	font-size: 18/16 +0em;
-	font-weight: $light-font-weight;
+	font-weight: $fw-light;
 }
 
 .card__stats,
@@ -83,7 +80,7 @@ main .container {
 }
 
 .card__stat-value {
-	font-weight: $semibold-font-weight;
+	font-weight: $fw-semibold;
 	color: $cyan;
 }
 

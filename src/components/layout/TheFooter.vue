@@ -15,7 +15,7 @@ footer {
 	flex: none;
 	padding: 12/12 +0em 0;
 	font-size: 12/16 +0em;
-	font-weight: $light-font-weight;
+	font-weight: $fw-light;
 	text-align: center;
 }
 </style>

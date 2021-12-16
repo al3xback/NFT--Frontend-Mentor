@@ -46,7 +46,7 @@ export default {
 	
 	.card__head,
 	.card__body {
-		background-color: $card-bg;
+		background-color: $bg-card;
 	}
 
 	.card__head {
@@ -127,7 +127,7 @@ export default {
 	.card__foot {
 		padding-top: 16/16 +0em;
 		margin-top: 16/16 +0em;
-		border-top: 1px solid $line-bg;
+		border-top: 1px solid $bg-line;
 	}
 
 	.card-enter-from,
