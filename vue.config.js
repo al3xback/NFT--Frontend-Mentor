@@ -9,6 +9,6 @@ module.exports = {
 		}
 	},
 	publicPath: process.env.NODE_ENV === 'production'
-		? '/NFT-preview-card-component--Frontend-Mentor/'
+		? '/NFT-card--Frontend-Mentor/'
 		: '/'
 };
