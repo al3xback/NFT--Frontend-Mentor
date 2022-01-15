@@ -1,12 +1,13 @@
-$bg-main: hsl(217, 54%, 11%);
-$bg-card: hsl(216, 50%, 16%);
-$bg-line: hsl(215, 32%, 27%);
+$primary-1: hsl(215, 51%, 70%);
+$primary-2: hsl(178, 100%, 50%);
+$primary-2-a-60: hsla(178, 100%, 50%, 60%);
+
+$neutral-1: hsl(217, 54%, 11%);
+$neutral-2: hsl(216, 50%, 16%);
+$neutral-3: hsl(215, 32%, 27%);
 $white: hsl(0, 0%, 100%);
-$soft-blue: hsl(215, 51%, 70%);
-$cyan: hsl(178, 100%, 50%);
-$soft-cyan: hsla(178, 100%, 50%, 60%);
 
 $ff-primary: 'Outfit', sans-serif;
-$fw-light: 300;
-$fw-regular: 400;
-$fw-semibold: 600;
+$fw-300: 300;
+$fw-400: 400;
+$fw-600: 600;

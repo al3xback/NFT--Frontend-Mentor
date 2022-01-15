@@ -46,7 +46,7 @@ export default {
 	
 	.card__head,
 	.card__body {
-		background-color: $bg-card;
+		background-color: $neutral-2;
 	}
 
 	.card__head {
@@ -64,7 +64,7 @@ export default {
 		position: relative;
 		height: 0;
 		padding-bottom: 100%;
-		background-color: $soft-blue;
+		background-color: $primary-1;
 		overflow: hidden;
 		border-radius: 8/16 +0em;
 	}
@@ -94,7 +94,7 @@ export default {
 
 	.card__image a::before {
 		z-index: 1;
-		background: $soft-cyan url('~@/assets/images/icons/view.svg') no-repeat center;
+		background: $primary-2-a-60 url('~@/assets/images/icons/view.svg') no-repeat center;
 		background-size: 48/16 +0em;
 		opacity: 0;
 	}
@@ -127,7 +127,7 @@ export default {
 	.card__foot {
 		padding-top: 16/16 +0em;
 		margin-top: 16/16 +0em;
-		border-top: 1px solid $bg-line;
+		border-top: 1px solid $neutral-3;
 	}
 
 	.card-enter-from,

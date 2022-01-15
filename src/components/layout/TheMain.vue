@@ -53,14 +53,14 @@ main .container {
 	margin-bottom: 12/22 +0em;
 	line-height: 28/22 +0em;
 	font-size: 22/16 +0em;
-	font-weight: $fw-semibold;
+	font-weight: $fw-600;
 }
 
 .card__desc {
 	margin-bottom: 16/18 +0em;
 	line-height: 26/18 +0em;
 	font-size: 18/16 +0em;
-	font-weight: $fw-light;
+	font-weight: $fw-300;
 }
 
 .card__stats,
@@ -80,8 +80,8 @@ main .container {
 }
 
 .card__stat-value {
-	font-weight: $fw-semibold;
-	color: $cyan;
+	font-weight: $fw-600;
+	color: $primary-2;
 }
 
 .card__stat i {
