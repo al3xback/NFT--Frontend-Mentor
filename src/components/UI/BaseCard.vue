@@ -4,7 +4,7 @@
 			<div class="card__head" :class="{active: !detailsAreVisible}">
 				<div class="card__image">
 					<figure @click="toggleDetails">
-						<img src="@/assets/images/equilibrium.jpg" alt="" />
+						<img src="@/assets/img/equilibrium.jpg" alt="" />
 					</figure>
 				</div>
 			</div>
@@ -88,7 +88,7 @@ export default {
 
 	.card__image figure::before {
 		z-index: 1;
-		background: $primary-2-a-60 url('~@/assets/images/icons/view.svg') no-repeat center;
+		background: $primary-2-a-60 url('~@/assets/img/icons/view.svg') no-repeat center;
 		background-size: 48/16 +0em;
 		opacity: 0;
 	}

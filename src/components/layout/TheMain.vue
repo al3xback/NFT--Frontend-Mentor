@@ -21,7 +21,7 @@
 				<template #foot>
 					<div class="card__author">
 						<figure class="card__author-avatar">
-							<img width="33" height="33" src="@/assets/images/avatar.png" alt="Avatar" />
+							<img width="33" height="33" src="@/assets/img/avatar.png" alt="Avatar" />
 						</figure>
 						<p class="card__author-text">
 							Creation of <base-button link>Jules Wyvern</base-button>
