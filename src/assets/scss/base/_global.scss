@@ -21,20 +21,6 @@ body {
 	clip: rect(0, 0, 0, 0);
 }
 
-a {
-	color: inherit;
-	text-decoration: none;
-}
-
-.btn--link {
-	color: $white;
-	transition: opacity 0.3s;
-}
-
-.btn--link:hover {
-	color: $primary-2;
-}
-
 [class^='icon-'] {
 	background-repeat: no-repeat;
 	background-position: center;

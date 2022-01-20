@@ -2,11 +2,11 @@
 	<div class="card">
 		<transition-group name="card">
 			<div class="card__head" :class="{active: !detailsAreVisible}">
-				<figure class="card__image">
-					<a @click="toggleDetails">
+				<div class="card__image">
+					<figure @click="toggleDetails">
 						<img src="@/assets/images/equilibrium.jpg" alt="" />
-					</a>
-				</figure>
+					</figure>
+				</div>
 			</div>
 			<div class="card__body" v-if="detailsAreVisible">
 				<div class="card__content">
@@ -69,13 +69,7 @@ export default {
 		border-radius: 8/16 +0em;
 	}
 
-	.card__image a,
-	.card__image a::before,
-	.card__image img {
-		border-radius: inherit;
-	}
-
-	.card__image a {
+	.card__image figure {
 		position: absolute;
 		top: 0;
 		bottom: 0;
@@ -84,22 +78,22 @@ export default {
 		cursor: pointer;
 	}
 
-	.card__image a::before,
-	.card__image a::after {
+	.card__image figure::before,
+	.card__image figure::after {
 		content: "";
 		position: absolute;
 		inset: 0;
 		transition: all 0.3s;
 	}
 
-	.card__image a::before {
+	.card__image figure::before {
 		z-index: 1;
 		background: $primary-2-a-60 url('~@/assets/images/icons/view.svg') no-repeat center;
 		background-size: 48/16 +0em;
 		opacity: 0;
 	}
 
-	.card__image a::after {
+	.card__image figure::after {
 		z-index: 2;
 		width: 6/16 +0em;
 		height: 52/16 +0em;
@@ -110,11 +104,11 @@ export default {
 		transform: rotate(45deg) scale(1, 0);
 	}
 
-	.card__image a:hover::before {
+	.card__image figure:hover::before {
 		opacity: 1;
 	}
 
-	.card__head.active .card__image a:hover::after {
+	.card__head.active .card__image figure:hover::after {
 		opacity: 1;
 		transform: rotate(45deg) scale(1, 1);
 	}

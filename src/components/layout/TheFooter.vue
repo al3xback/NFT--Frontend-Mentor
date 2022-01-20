@@ -3,8 +3,8 @@
 		<base-container>
 			<p>
 				Challenge by
-				<a class="btn--link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
-				. Coded by <a class="btn--link" href="https://github.com/al3xback" target="_blank" rel="noopener">al3xback</a>.
+				<base-button link to="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</base-button>
+				. Coded by <base-button link to="https://github.com/al3xback" rel="noopener" target="_blank">al3xback</base-button>.
 			</p>
 		</base-container>
 	</footer>

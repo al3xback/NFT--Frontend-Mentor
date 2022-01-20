@@ -4,7 +4,7 @@
 			<base-card>
 				<template #default>
 					<h2 class="card__title">
-						<a href="#" class="btn--link">Equilibrium #3429</a>
+						<base-button link>Equilibrium #3429</base-button>
 					</h2>
 					<p class="card__desc">Our Equilibrium collection promotes balance and calm.</p>
 					<div class="card__stats">
@@ -24,7 +24,7 @@
 							<img width="33" height="33" src="@/assets/images/avatar.png" alt="Avatar" />
 						</figure>
 						<p class="card__author-text">
-							Creation of <a href="#" class="btn--link">Jules Wyvern</a>
+							Creation of <base-button link>Jules Wyvern</base-button>
 						</p>
 					</div>
 				</template>
