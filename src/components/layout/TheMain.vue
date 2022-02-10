@@ -6,7 +6,9 @@
 					<h2 class="card__title">
 						<base-button link>Equilibrium #3429</base-button>
 					</h2>
-					<p class="card__desc">Our Equilibrium collection promotes balance and calm.</p>
+					<p class="card__desc">
+						Our Equilibrium collection promotes balance and calm.
+					</p>
 					<div class="card__stats">
 						<div class="card__stat card__stat-value">
 							<i class="icon-ethereum" aria-hidden="true"></i>
@@ -21,10 +23,15 @@
 				<template #foot>
 					<div class="card__author">
 						<figure class="card__author-avatar">
-							<img width="33" height="33" src="@/assets/images/avatar.png" alt="Avatar" />
+							<img
+								width="33"
+								height="33"
+								src="@/assets/images/avatar.png"
+								alt="Avatar" />
 						</figure>
 						<p class="card__author-text">
-							Creation of <base-button link>Jules Wyvern</base-button>
+							Creation of
+							<base-button link>Jules Wyvern</base-button>
 						</p>
 					</div>
 				</template>
@@ -110,7 +117,7 @@ main .container {
 	.card__title {
 		margin-bottom: 16/22 +0em;
 	}
-	
+
 	.card__desc {
 		margin-bottom: 24/18 +0em;
 	}

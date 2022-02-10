@@ -5,7 +5,7 @@
 </template>
 
 <style scoped lang="scss">
-    .container {
-        padding: 0 24/16 +0em;
-    }
+.container {
+	padding: 0 24/16 +0em;
+}
 </style>
