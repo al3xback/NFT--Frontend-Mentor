@@ -88,7 +88,7 @@ export default {
 
 .card__image figure::before {
 	z-index: 1;
-	background: $primary-2-a-60 url('~@/assets/images/icons/view.svg') no-repeat
+	background: $primary-2-60 url('~@/assets/images/icons/view.svg') no-repeat
 		center;
 	background-size: em(48);
 	opacity: 0;
