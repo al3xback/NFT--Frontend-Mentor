@@ -4,10 +4,10 @@ body {
 	font-family: $ff-primary;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	font-size: 1em;
+	font-size: em(16);
 	font-weight: $fw-400;
 	color: $primary-1;
-	line-height: 20/16 +0em;
+	line-height: em(20);
 }
 
 .sr-only {
@@ -28,13 +28,13 @@ body {
 }
 
 .icon-ethereum {
-	width: 11/16 +0em;
-	height: 18/16 +0em;
+	width: em(11);
+	height: em(18);
 	background-image: url('~@/assets/images/icons/ethereum.svg');
 }
 
 .icon-clock {
-	width: 16/16 +0em;
-	height: 16/16 +0em;
+	width: em(16);
+	height: em(16);
 	background-image: url('~@/assets/images/icons/clock.svg');
 }

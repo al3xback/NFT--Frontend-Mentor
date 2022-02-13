@@ -3,11 +3,10 @@ module.exports = {
 		loaderOptions: {
 			sass: {
 				additionalData: `
-					@import "@/assets/scss/base/_variables.scss";
+					@import "@/assets/scss/preload.scss";
 				`,
 			},
 		},
 	},
-	publicPath:
-		process.env.NODE_ENV === 'production' ? '/NFT--Frontend-Mentor/' : '/',
+	publicPath: process.env.NODE_ENV === 'production' ? '/NFT-vue-FM/' : '/',
 };

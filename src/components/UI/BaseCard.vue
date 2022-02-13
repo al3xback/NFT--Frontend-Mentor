@@ -39,9 +39,9 @@ export default {
 .card {
 	position: relative;
 	width: 100%;
-	max-width: 350/16 +0em;
-	border-radius: 15/16 +0em;
-	box-shadow: 0 25/16 +0em 50/16 +0em rgba(0, 0, 0, 0.0952917);
+	max-width: em(350);
+	border-radius: em(15);
+	box-shadow: 0 em(25) em(50) rgba(0, 0, 0, 0.0952917);
 }
 
 .card__head,
@@ -52,12 +52,12 @@ export default {
 .card__head {
 	position: relative;
 	z-index: 1;
-	padding: 24/16 +0em;
-	border-radius: 15/16 +0em 15/16 +0em 0 0;
+	padding: em(24);
+	border-radius: em(15) em(15) 0 0;
 }
 
 .card__head.active {
-	border-radius: 15/16 +0em;
+	border-radius: em(15);
 }
 
 .card__image {
@@ -66,7 +66,7 @@ export default {
 	padding-bottom: 100%;
 	background-color: $primary-1;
 	overflow: hidden;
-	border-radius: 8/16 +0em;
+	border-radius: em(8);
 }
 
 .card__image figure {
@@ -90,17 +90,17 @@ export default {
 	z-index: 1;
 	background: $primary-2-a-60 url('~@/assets/images/icons/view.svg') no-repeat
 		center;
-	background-size: 48/16 +0em;
+	background-size: em(48);
 	opacity: 0;
 }
 
 .card__image figure::after {
 	z-index: 2;
-	width: 6/16 +0em;
-	height: 52/16 +0em;
+	width: em(6);
+	height: em(52);
 	margin: auto;
 	background-color: $white;
-	border-radius: 4/16 +0em;
+	border-radius: em(4);
 	opacity: 0;
 	transform: rotate(45deg) scale(1, 0);
 }
@@ -115,13 +115,13 @@ export default {
 }
 
 .card__body {
-	padding: 0 24/16 +0em 24/16 +0em;
-	border-radius: 0 0 15/16 +0em 15/16 +0em;
+	padding: 0 em(24) em(24);
+	border-radius: 0 0 em(15) em(15);
 }
 
 .card__foot {
-	padding-top: 16/16 +0em;
-	margin-top: 16/16 +0em;
+	padding-top: em(16);
+	margin-top: em(16);
 	border-top: 1px solid $neutral-3;
 }
 
@@ -152,11 +152,11 @@ export default {
 
 @media (min-width: 48em) {
 	.card__body {
-		padding-bottom: 32/16 +0em;
+		padding-bottom: em(32);
 	}
 
 	.card__foot {
-		margin-top: 24/16 +0em;
+		margin-top: em(24);
 	}
 }
 </style>

@@ -25,8 +25,8 @@
 <style scoped lang="scss">
 footer {
 	flex: none;
-	padding: 12/12 +0em 0;
-	font-size: 12/16 +0em;
+	padding: em(12, 12) 0;
+	font-size: em(12);
 	font-weight: $fw-300;
 	text-align: center;
 }

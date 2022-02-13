@@ -48,7 +48,8 @@ main .container {
 }
 
 main {
-	padding: 24/16 +0em 0;
+	padding: em(24) 0;
+	margin: em(16);
 }
 
 main .container {
@@ -57,22 +58,22 @@ main .container {
 }
 
 .card__title {
-	margin-bottom: 12/22 +0em;
-	line-height: 28/22 +0em;
-	font-size: 22/16 +0em;
+	margin-bottom: em(12, 22);
+	line-height: em(28, 22);
+	font-size: em(22);
 	font-weight: $fw-600;
 }
 
 .card__desc {
-	margin-bottom: 16/18 +0em;
-	line-height: 26/18 +0em;
-	font-size: 18/16 +0em;
+	margin-bottom: em(16, 18);
+	line-height: em(26, 18);
+	font-size: em(18);
 	font-weight: $fw-300;
 }
 
 .card__stats,
 .card__author-text {
-	font-size: 15/16 +0em;
+	font-size: em(15);
 }
 
 .card__stats {
@@ -92,22 +93,22 @@ main .container {
 }
 
 .card__stat i {
-	margin-right: 7.7/16 +0em;
+	margin-right: em(7.7);
 }
 
 .card__author {
 	display: flex;
 	align-items: center;
-	font-size: 16/16 +0em;
+	font-size: em(16);
 }
 
 .card__author-avatar {
 	flex-shrink: 0;
-	margin-right: 16/16 +0em;
+	margin-right: em(16);
 }
 
 .card__author-avatar img {
-	width: 33/16 +0em;
+	width: em(33);
 	height: auto;
 	border: 1px solid $white;
 	border-radius: 50%;
@@ -115,11 +116,11 @@ main .container {
 
 @media (min-width: 48em) {
 	.card__title {
-		margin-bottom: 16/22 +0em;
+		margin-bottom: em(16, 22);
 	}
 
 	.card__desc {
-		margin-bottom: 24/18 +0em;
+		margin-bottom: em(24, 18);
 	}
 
 	.card__stats,
