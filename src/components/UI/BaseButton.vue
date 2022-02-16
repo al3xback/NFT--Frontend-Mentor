@@ -1,8 +1,5 @@
 <template>
-	<button v-if="!link" type="button" class="btn">
-		<slot></slot>
-	</button>
-	<a v-else :href="to" class="btn btn--link">
+	<a :href="to" class="btn btn--link">
 		<slot></slot>
 	</a>
 </template>
@@ -10,11 +7,6 @@
 <script>
 export default {
 	props: {
-		link: {
-			type: Boolean,
-			required: false,
-			default: false,
-		},
 		to: {
 			type: String,
 			required: false,
@@ -32,7 +24,7 @@ export default {
 }
 
 .btn--link {
-	color: $white;
+	color: $neutral-4;
 	transition: opacity 0.3s;
 }
 

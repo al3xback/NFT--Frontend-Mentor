@@ -4,14 +4,12 @@
 			<p>
 				Challenge by
 				<base-button
-					link
 					to="https://www.frontendmentor.io?ref=challenge"
 					target="_blank"
 					>Frontend Mentor</base-button
 				>
 				. Coded by
 				<base-button
-					link
 					to="https://github.com/al3xback"
 					rel="noopener"
 					target="_blank"
