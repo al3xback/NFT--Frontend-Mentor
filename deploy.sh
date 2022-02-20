@@ -8,6 +8,6 @@ git init
 git add -A
 git commit -m 'deploy'
 git branch -m main
-git push -f git@github.com:al3xback/NFT-vue-FM.git main:gh-pages
+git push -f git@github.com:al3xback/NFT-vue.git main:gh-pages
 
 cd -

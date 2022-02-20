@@ -8,5 +8,5 @@ module.exports = {
 			},
 		},
 	},
-	publicPath: process.env.NODE_ENV === 'production' ? '/NFT-vue-FM/' : '/',
+	publicPath: process.env.NODE_ENV === 'production' ? '/NFT-vue/' : '/',
 };
