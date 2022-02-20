@@ -17,8 +17,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/al3xback/NFT-vue-FM
-- Live Site URL: https://al3xback.github.io/NFT-vue-FM
+- Solution URL: https://github.com/al3xback/NFT-vue
+- Live Site URL: https://al3xback.github.io/NFT-vue
 
 ## My process
 
