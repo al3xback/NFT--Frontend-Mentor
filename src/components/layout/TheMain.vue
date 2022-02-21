@@ -49,7 +49,6 @@ main .container {
 
 main {
 	padding: em(24) 0;
-	margin: em(16);
 }
 
 main .container {
